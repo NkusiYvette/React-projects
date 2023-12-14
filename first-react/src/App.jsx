@@ -1,6 +1,7 @@
 
 import './App.css'
 import Component from './components/component'
+import { FiGithub } from "react-icons/fi";
 function App() {
  
 
@@ -17,8 +18,16 @@ function App() {
        
       </body>
       <Component/>
+      <div>
+        <h2>
+          <a href="https://github.com/NkusiYvette/React-projects">
+          icon <FiGithub/>
+          </a>
+        </h2>
+      </div>
     </>
   );
 }
 
 export default App
+
